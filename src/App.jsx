@@ -30,7 +30,7 @@ function App() {
       getData();
     } catch (e) {
       setIsAuth(false);
-      alert(e.message);
+      alert("登入失敗");
     }
   };
 
@@ -58,7 +58,7 @@ function App() {
       getData();
     } catch (e) {
       setIsAuth(false);
-      alert(e.message);
+      alert("請重新登入");
     }
   };
 
